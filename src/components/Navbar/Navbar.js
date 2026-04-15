@@ -8,7 +8,7 @@ function Navbar() {
          <h1 className="text-xl">MS  </h1>
         </div>
       <ul>
-        <a href='#'>Home</a>
+        <a href='#home'>Home</a>
         <a href='#about'>About</a>
         <a href='#projects'>Projects</a>
         <a href='#contact'>Contact</a>
