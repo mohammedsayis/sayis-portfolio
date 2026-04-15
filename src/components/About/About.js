@@ -28,7 +28,7 @@ performance optimization, and continuous learning.
         <div id='languagesAndTools' className='languagesAndTools'>
             {
                 image.map((img , index)=>(
-                    <img className='languagesImags' src={img} key={index} />
+                    <img alt='aboutImage' className='languagesImags' src={img} key={index} />
                     
                 ))
             }

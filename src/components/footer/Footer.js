@@ -22,13 +22,13 @@ function Footer() {
 
         {/* Right */}
         <div className="footer-social">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
+          <a href="https://github.com/mohammedsayis" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/mohammed-sayis-ch-88b170226/" target="_blank" rel="noreferrer">LinkedIn</a>
+          
         </div>
 
       </div>
-
+ 
       <p className="footer-bottom">
         © 2026 Mohammed Sayis CH. All rights reserved.
       </p>
