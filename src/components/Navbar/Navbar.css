@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  
+
+
+  justify-content: space-between;
+  padding: 15px;
+  background:#d7dadd;
+  color: #250570;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+li{
+    cursor: pointer;
+    font-weight: bold;
+}

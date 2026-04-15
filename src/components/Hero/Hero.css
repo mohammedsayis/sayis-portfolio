@@ -1,0 +1,56 @@
+.name{
+    display: flex;
+    justify-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: blue;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: rgb(12, 9, 214);
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.hero {
+  display: flex;
+  height: 70vh;
+}
+
+/* Equal width */
+.leftSide, .rightSide {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Example colors */
+.leftSide {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  height: 100%; 
+}
+
+.rightSide {
+  background-image: url('../../Assets/hero/MERN-Stack-Development.png');
+  background-repeat: no-repeat;
+}
+
+/* 🔥 Responsive (Mobile view) */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;  /* Stack vertically */
+  }
+}
