@@ -1,17 +1,19 @@
-.name{
-    display: flex;
-    justify-content: center;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-
-    color: blue;
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  font-size: 45px;
+  text-align: center;
 }
 
-.position{
-    display: flex;
-    justify-content: center;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-
-    color: rgb(12, 9, 214);
+.position {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(12, 9, 214);
+  font-size: 28px;
+  text-align: center;
 }
 .socialMedia{
     display: flex;
